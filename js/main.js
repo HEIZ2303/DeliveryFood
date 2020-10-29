@@ -50,7 +50,7 @@ function authorized () {
   buttonAuth.style.display = 'none';
   userName.style.display = 'inline'; 
   buttonOut.style.display = 'block';
-  buttonOut.addEventListener('click', logOut);
+  buttonOut.addEventListener('click', logOut); 
 }
 
 function notAuthorized() {
